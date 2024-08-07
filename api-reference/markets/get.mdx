@@ -1,0 +1,31 @@
+---
+title: "Redirect to Market"
+description: "Redirect to a market's website."
+openapi: "GET /redirect/{provider}/{name}"
+authMethod: "none"
+---
+
+<Note>You can directly open these links in your browser</Note>
+
+## How to use
+
+```ts
+const encodedName = encodeURIComponent(name);
+// Open directly in browser
+window.open(`http://api.betterfloat.com/redirect/{provider}/{encodedName}`);
+// Open from a browser extension
+chrome.tabs.create({ url: `http://api.betterfloat.com/redirect/{provider}/{encodedName}` });
+```
+
+## Example items
+
+```ts
+"AK-47 | Redline (Field-Tested)";
+"AWP | Asiimov (Field-Tested)";
+"★ Karambit | Lore (Minimal Wear)";
+"★ M9 Bayonet";
+```
+
+## Source
+
+<Icon icon="github" size={32} /> https://github.com/EricZhu-42/SteamTradingSite-ID-Mapper

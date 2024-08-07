@@ -1,91 +1,90 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
-  },
-  "favicon": "/favicon.svg",
-  "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
-  },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
-  },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
-  ],
-  "navigation": [
-    {
-      "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
-    }
-  ],
-  "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
-  }
+	"$schema": "https://mintlify.com/schema.json",
+	"name": "Starter Kit",
+	"logo": {
+		"dark": "/logo/bf-dark.svg",
+		"light": "/logo/bf-light.svg"
+	},
+	"favicon": "/favicon.svg",
+	"colors": {
+		"primary": "#7E22CE",
+		"light": "#AE58F9",
+		"dark": "#7E22CE",
+		"anchors": {
+			"from": "#7E22CE",
+			"to": "#AE58F9"
+		}
+	},
+	"topbarLinks": [
+		{
+			"name": "Community",
+			"url": "https://discord.gg/VQWXp33nSW"
+		}
+	],
+	"topbarCtaButton": {
+		"name": "Website",
+		"url": "https://betterfloat.com"
+	},
+	"tabs": [
+		{
+			"name": "API Reference",
+			"url": "api-reference"
+		}
+	],
+	"anchors": [
+		{
+			"name": "Website",
+			"icon": "book-open-cover",
+			"url": "https://betterfloat.com"
+		},
+		{
+			"name": "Download Extension",
+			"icon": "chrome",
+			"url": "https://chromewebstore.google.com/detail/betterfloat/bphfhlfhnohppnleaehnlfigkkccpglk"
+		},
+		{
+			"name": "Community",
+			"icon": "discord",
+			"url": "https://discord.gg/VQWXp33nSW"
+		},
+		{
+			"name": "Github",
+			"icon": "github",
+			"url": "https://github.com/GODrums/BetterFloat"
+		}
+	],
+	"navigation": [
+		{
+			"group": "Get Started",
+			"pages": ["introduction", "quickstart", "development"]
+		},
+		{
+			"group": "Essentials",
+			"pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation", "essentials/reusable-snippets"]
+		},
+		{
+			"group": "API Documentation",
+			"pages": ["api-reference/introduction"]
+		},
+		{
+			"group": "Market Endpoints",
+			"pages": ["api-reference/markets/get"]
+		}
+	],
+	"api": {
+		"baseUrl": "https://api.betterfloat.com/",
+		"request": {
+			"example": {
+				"showOptionalParams": true
+			}
+		},
+		"auth": {
+			"method": "key",
+			"name": "API_KEY"
+		}
+	},
+	"footerSocials": {
+		"x": "https://x.com/rumscsgo",
+		"github": "https://github.com/GODrums/BetterFloat"
+	}
 }
