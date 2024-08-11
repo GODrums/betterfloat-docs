@@ -1,33 +1,25 @@
 ---
-title: 'Introduction'
-description: 'Example section for showcasing API endpoints'
+title: "Introduction"
+description: "Welcome to BetterFloat's API documentation"
 ---
 
-<Note>
-  If you're not looking to build API reference documentation, you can delete
-  this section by removing the api-reference folder.
-</Note>
+<Note>This documentation is a work in progress.</Note>
 
 ## Welcome
 
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
+Reading and understanding the API documentation requires basic coding knowledge. It provides detailed information on the API endpoints, request and response formats, and authentication requirements.
 
-<Card
-  title="Plant Store Endpoints"
-  icon="leaf"
-  href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json"
->
-  View the OpenAPI specification file
+<Card title="Market Endpoints" icon="leaf" href="/api-reference/markets">
+	View the OpenAPI specification file
 </Card>
 
 ## Authentication
 
-All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
+Some API endpoints may require authentication. Authorization can be done by including your API key in the request header.
+If you need access to an authorized endpoint, please contact me directly with a description of your use case.
 
 ```json
-"security": [
-  {
-    "bearerAuth": []
-  }
-]
+{
+	"Authorization": "YOUR_API_KEY"
+}
 ```

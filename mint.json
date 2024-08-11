@@ -1,9 +1,14 @@
 {
 	"$schema": "https://mintlify.com/schema.json",
-	"name": "Starter Kit",
+	"name": "BetterFloat",
 	"logo": {
 		"dark": "/logo/bf-dark.svg",
 		"light": "/logo/bf-light.svg"
+	},
+	"feedback": {
+		"thumbsRating": true,
+		"suggestEdit": true,
+		"raiseIssue": true
 	},
 	"favicon": "/favicon.svg",
 	"colors": {
@@ -15,6 +20,7 @@
 			"to": "#AE58F9"
 		}
 	},
+	"theme": "prism",
 	"topbarLinks": [
 		{
 			"name": "Community",
@@ -61,6 +67,10 @@
 		{
 			"group": "Essentials",
 			"pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation", "essentials/reusable-snippets"]
+		},
+		{
+			"group": "Customization",
+			"pages": ["essentials/settings", "customization/pricing"]
 		},
 		{
 			"group": "API Documentation",

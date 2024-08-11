@@ -12,9 +12,9 @@ authMethod: "none"
 ```ts
 const encodedName = encodeURIComponent(name);
 // Open directly in browser
-window.open(`http://api.betterfloat.com/redirect/{provider}/{encodedName}`);
+window.open(`http://api.betterfloat.com/redirect/${provider}/${encodedName}`);
 // Open from a browser extension
-chrome.tabs.create({ url: `http://api.betterfloat.com/redirect/{provider}/{encodedName}` });
+chrome.tabs.create({ url: `http://api.betterfloat.com/redirect/${provider}/${encodedName}` });
 ```
 
 ## Example items
