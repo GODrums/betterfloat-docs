@@ -12,9 +12,38 @@ For a market to be a reliable source, it must have a large number of listings an
 
 </Note>
 
-| Market                                     | Available prices                     | Description                                                                                                           |
-| ------------------------------------------ | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
-| [Buff163](https://buff163.com)             | Buy Order (Bid), Lowest Listed (Ask) | Buff is by far the largest market, but cannot be used with a Chinese bank account and doesn't support cases/capsules. |
-| [Steam](https://steamcommunity.com/market) | Buy Order (Bid), Lowest Listed (Ask) | Steam is very popular, but has 15% fee and very inflated prices.                                                      |
-| [YouPin/UU](https://youpin898.com/)        | Lowest Listed (Ask)                  | YouPin is the second largest Chinese market and has the most accurate prices.                                         |
-| [C5Game](https://c5game.com)               | Lowest Listed (Ask)                  | C5Game is a smaller Chinese market, but supports deposit/withdrawal through it's EU partner Haloskins.                |
+| Market                                     | Buy Order Price (Bid) | Lowest Listed Price (Ask) | Description                                                                                                           |
+| ------------------------------------------ | :-------------------: | :-----------------------: | --------------------------------------------------------------------------------------------------------------------- |
+| [Buff163](https://buff163.com)             |          ✅           |            ✅             | Buff is by far the largest market, but cannot be used with a Chinese bank account and doesn't support cases/capsules. |
+| [Steam](https://steamcommunity.com/market) |          ✅           |            ✅             | Steam is very popular, but has 15% fee and very inflated prices.                                                      |
+| [YouPin/UU](https://youpin898.com/)        |           -           |            ✅             | YouPin is the second largest Chinese market and has the most accurate prices.                                         |
+| [C5Game](https://c5game.com)               |           -           |            ✅             | C5Game is a smaller Chinese market, but supports deposit/withdrawal through it's EU partner Haloskins.                |
+
+### Primary price
+
+<Info>Only available if the selected market has bid **and** ask prices available.</Info>
+
+The primary price is the price that will be used in the pricing calculations. If available, it is always recommended to use the Buy Order price (Bid) as the primary price. It provides a more accurate representation of how much you can (re-)sell an item for.
+
+### Alternative market
+
+<Info>Only available if the selected market doesn't support every item.</Info>
+
+If the selected market doesn't support every item, the alternative market will be used to calculate the price for those items. Just like for the original market, the primary price will be used if available.
+
+<Warning>If 'None' is selected, affected items will not have a reference price.</Warning>
+
+Examples:
+
+-   Buff doesn't support cases/capsules/packages, so the alternative market will be used to calculate the price for those items
+-   Steam has a price limit of $2000, so the alternative market will be used to calculate the price for items above that limit
+
+### Supplement with Steam (CSFloat only)
+
+<Info>Only available for CSFloat.</Info>
+
+If enabled, the extension shows an additional indicator for the price percentage compared to the Steam price. This can be useful for items with very few listings across all markets, such as older stickers, capsules or packages.
+
+<Frame caption="Example: A listing priced at 65% of the Steam price">
+	<img src="/images/screenshots/supplement-with-steam.png" alt="Supplement with Steam" />
+</Frame>
