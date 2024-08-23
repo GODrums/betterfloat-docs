@@ -19,6 +19,30 @@ For a market to be a reliable source, it must have a large number of listings an
 | [YouPin/UU](https://youpin898.com/)        |           -           |            ✅             | YouPin is the second largest Chinese market and has the most accurate prices.                                         |
 | [C5Game](https://c5game.com)               |           -           |            ✅             | C5Game is a smaller Chinese market, but supports deposit/withdrawal through it's EU partner Haloskins.                |
 
+BetterFloat attempts to convert prices into your selected site currency. If a market uses a base currency different than USD, our price provider, Pricempire, converts the prices to USD. Internally, prices are then fetched in USD (\$) and converted to the display currency after current market rates. For this conversion, we are using [freecurrencyapi.com](https://freecurrencyapi.com/)'s rates.
+
+<Warning>
+
+As a consequence, shown prices may differ slightly from ones you would get with a market's own currency conversion (e.g. Buff's USD conversion uses very outdates exchange rates).
+
+Please compare the extension's prices to Pricempire directly before reporting potential price discrepancies.
+
+</Warning>
+
+When both Bid and Ask prices are available, BetterFloat's pricing element will take the following format:
+
+<Icon icon="square-dollar" /> Bid Price | Ask Price
+
+<Frame caption="Example: Listing priced at a Bid price of $2124.17 and an Ask price of $2240.40 on Buff163">
+	<img src="/images/screenshots/bid-ask-prices.png" alt="Bid|Ask Prices" />
+</Frame>
+
+<Tip>
+
+    BetterFloat has a warning system to help detecting pricing anormalities. In such cases, the extension will show a warning icon <Icon icon="triangle-exclamation" iconType="solid" color="orange" /> next to the price. For example, this can happen if the Bid price is higher than the Ask price.
+
+</Tip>
+
 ### Primary price
 
 <Info>Only available if the selected market has bid **and** ask prices available.</Info>
