@@ -92,5 +92,18 @@
 	"footerSocials": {
 		"x": "https://x.com/rumscsgo",
 		"github": "https://github.com/GODrums/BetterFloat"
+	},
+	"metadata": {
+		"og:title": "BetterFloat API Documentation",
+		"og:description": "BetterFloat is a free and open-source extension that allows you to float your listings on various marketplaces.",
+		"og:url": "https://docs.betterfloat.com",
+		"og:type": "website",
+		"og:logo": "https://docs.betterfloat.com/logo/icon.png",
+		"og:image": "https://docs.betterfloat.com/images/hero.png",
+		"twitter:title": "BetterFloat API Documentation",
+		"twitter:description": "BetterFloat is a free and open-source extension that allows you to float your listings on various marketplaces.",
+		"twitter:image": "https://docs.betterfloat.com/images/hero.png",
+		"twitter:card": "summary_large_image",
+		"twitter:site": "@betterfloat"
 	}
 }
