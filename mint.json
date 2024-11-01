@@ -5,12 +5,10 @@
 		"dark": "/logo/bf-dark.svg",
 		"light": "/logo/bf-light.svg"
 	},
-	"feedback": {
-		"thumbsRating": true,
-		"suggestEdit": true,
-		"raiseIssue": true
-	},
 	"favicon": "/logo/icon.png",
+	"background": {
+		"style": "grid"
+	},
 	"colors": {
 		"primary": "#7E22CE",
 		"light": "#AE58F9",
@@ -23,13 +21,13 @@
 	"theme": "prism",
 	"topbarLinks": [
 		{
-			"name": "Community",
-			"url": "https://discord.gg/VQWXp33nSW"
+			"name": "Website",
+			"url": "https://betterfloat.com"
 		}
 	],
 	"topbarCtaButton": {
-		"name": "Website",
-		"url": "https://betterfloat.com"
+		"type": "github",
+		"url": "https://github.com/GODrums/BetterFloat"
 	},
 	"tabs": [
 		{
@@ -40,7 +38,7 @@
 	"anchors": [
 		{
 			"name": "Website",
-			"icon": "book-open-cover",
+			"icon": "globe",
 			"url": "https://betterfloat.com"
 		},
 		{
@@ -89,9 +87,17 @@
 			"name": "API_KEY"
 		}
 	},
-	"footerSocials": {
-		"x": "https://x.com/rumscsgo",
-		"github": "https://github.com/GODrums/BetterFloat"
+	"footer": {
+		"socials": {
+			"x": "https://x.com/rumscsgo",
+			"github": "https://github.com/GODrums/BetterFloat",
+			"discord": "https://discord.gg/VQWXp33nSW"
+		}
+	},
+	"feedback": {
+		"thumbsRating": true,
+		"suggestEdit": true,
+		"raiseIssue": true
 	},
 	"metadata": {
 		"og:title": "BetterFloat API Documentation",
