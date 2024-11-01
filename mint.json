@@ -10,7 +10,7 @@
 		"suggestEdit": true,
 		"raiseIssue": true
 	},
-	"favicon": "/favicon.svg",
+	"favicon": "/logo/icon.png",
 	"colors": {
 		"primary": "#7E22CE",
 		"light": "#AE58F9",
