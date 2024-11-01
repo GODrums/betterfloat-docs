@@ -1,0 +1,60 @@
+---
+title: "General Features"
+description: "Overview of the basic features"
+icon: "book"
+---
+
+## <Icon icon="arrows-rotate" /> Auto-Refresh
+
+<Info>Only available for CSFloat.</Info>
+<Tip>Please use this feature responsibly. Refreshing more than once every 30s **WILL** get you banned.</Tip>
+
+This feature is specific to the "NEWEST"-sorting on CSFloat. It automatically refreshes the page in a certain interval to show the newest listings. This can be useful to quickly identify new listings and potentially good deals.
+
+You can select between the following intervals:
+
+-   30 seconds
+-   1 minute
+-   2 minutes
+-   5 minutes
+
+<Warning>Please be aware of CSFloat's strict rate limits. BetterFloat is not reponsible for any bans or restrictions due to excessive requests.</Warning>
+
+<Frame caption="Example: Auto-Refresh feature disabled" type="glass">
+	<img src="/images/screenshots/csfloat-auto-refresh.png" alt="CSFloat's Auto-Refresh" />
+</Frame>
+
+## <Icon icon="note-sticky" /> Sticker Prices
+
+This feature adds a sticker price indicator to the listing. It's a very common metric in trading and can be useful to quickly identify the overpay for the stickers on an item.
+
+<Tip>For non-mathematicians: The sticker price (%SP) is the percentage of the un-applied sticker value incorporated into the price.</Tip>
+
+### How is it calculated?
+
+$SP = \dfrac{p_r - p_b}{\sum_{i=1}^{|s|} p_{s_i}}$
+
+Where:
+
+-   $SP$ is the displayed sticker price in %
+-   $p_r$ is the price of the listing
+-   $p_b$ is the base price of the item (for example the Buff price)
+-   $|s|$ is the number of stickers on the item
+-   $p_{s_i}$ is the base price of sticker $i$
+
+<Frame caption="Example: The %SP of a listing on CSFloat" type="glass">
+	<img src="/images/screenshots/csfloat-sticker-price.png" alt="CSFloat's Sticker Price Feature" />
+</Frame>
+
+## <Icon icon="gem" color="#00FFFF" /> CSBlueGem Integration
+
+CSBlueGem is a third-party service that provides a detailed case hardened analysis and data. BetterFloat integrates this data into the extension to provide a more details for individual patterns via their blue percentage and most recent sales. You can visit their website here: https://csbluegem.com/.
+
+<Tip>The blue% indicator used the format playside/backside to display the amount of blue. Most patterns do no go up to 100%.</Tip>
+
+<Frame caption="Example: Blue % Indicator on a Karambit CH" type="glass">
+	<img src="/images/screenshots/csfloat-csbluegem-blue.png" alt="CSBlueGem Blue % Indicator" />
+</Frame>
+<Frame caption="Example: Most recent sales provided by CSBlueGem" type="glass">
+	<img src="/images/screenshots/csfloat-csbluegem-sales.png" alt="CSFloat's Sticker Price Feature" />
+</Frame>

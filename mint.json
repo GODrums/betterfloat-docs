@@ -62,11 +62,11 @@
 	"navigation": [
 		{
 			"group": "Get Started",
-			"pages": ["introduction", "quickstart"]
+			"pages": ["introduction", "quickstart", "troubleshooting"]
 		},
 		{
 			"group": "Customization",
-			"pages": ["essentials/settings", "customization/pricing", "customization/listings"]
+			"pages": ["customization/general", "customization/pricing", "customization/listings"]
 		},
 		{
 			"group": "API Documentation",
