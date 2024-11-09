@@ -100,15 +100,17 @@
 		"raiseIssue": true
 	},
 	"metadata": {
-		"og:title": "BetterFloat API Documentation",
-		"og:description": "BetterFloat is a free and open-source extension that allows you to float your listings on various marketplaces.",
+		"og:title": "BetterFloat Documentation",
+		"og:description": "BetterFloat is a free and open-source extension to enhance your experience on various marketplaces.",
 		"og:url": "https://docs.betterfloat.com",
 		"og:type": "website",
-		"og:logo": "https://docs.betterfloat.com/logo/icon.png",
-		"og:image": "https://docs.betterfloat.com/images/hero.png",
+		"og:logo": "/logo/icon.png",
+		"og:image": "/images/hero.png",
+		"og:image:width": "876",
+		"og:image:height": "448",
 		"twitter:title": "BetterFloat API Documentation",
 		"twitter:description": "BetterFloat is a free and open-source extension that allows you to float your listings on various marketplaces.",
-		"twitter:image": "https://docs.betterfloat.com/images/hero.png",
+		"twitter:image": "/images/hero.png",
 		"twitter:card": "summary_large_image",
 		"twitter:site": "@betterfloat"
 	}
