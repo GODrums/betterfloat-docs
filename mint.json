@@ -72,7 +72,7 @@
 		},
 		{
 			"group": "Tutorials",
-			"pages": ["tutorials/activate-plan"]
+			"pages": ["tutorials/activate-plan", "tutorials/activate-notifications"]
 		},
 		{
 			"group": "Changelog",
