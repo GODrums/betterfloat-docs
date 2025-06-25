@@ -64,19 +64,33 @@
 	"navigation": [
 		{
 			"group": "Get Started",
-			"pages": ["introduction", "quickstart", "troubleshooting"]
+			"pages": [
+				"introduction",
+				"quickstart",
+				"troubleshooting"
+			]
 		},
 		{
 			"group": "Customization",
-			"pages": ["customization/general", "customization/pricing", "customization/listings"]
+			"pages": [
+				"customization/general",
+				"customization/pricing",
+				"customization/listings"
+			]
 		},
 		{
 			"group": "Tutorials",
-			"pages": ["tutorials/activate-plan", "tutorials/activate-notifications"]
+			"pages": [
+				"tutorials/activate-plan",
+				"tutorials/activate-notifications",
+				"tutorials/using-omnibox"
+			]
 		},
 		{
 			"group": "Changelog",
-			"pages": ["changelog/overview"]
+			"pages": [
+				"changelog/overview"
+			]
 		}
 	],
 	"api": {
